@@ -1,0 +1,154 @@
+.background_sponsors {
+	margin: 52px auto 74px auto;
+	max-width: 1136px;
+	width: 100%;
+}
+
+.background_sponsors h1 {
+	margin-top: 52px;
+	text-align: center;
+}
+
+.background_sponsors p {
+	margin-top: 60px;
+	line-height: 28px;
+}
+
+.major_container {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0 30px 0;
+}
+
+.border {
+	border: 1px solid #CCD5DE;
+}
+
+.additional_container {
+	display: flex;
+	justify-content: space-between;
+	margin: 49px 0 48px 0;
+}
+
+.border + p {
+	margin-top: 60px;
+}
+
+.column1 , .column2 , .column3 , .column4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.by_container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 33px;
+}
+
+.for_mobile_one {
+	max-width: 520px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.for_mobile_two {
+	max-width: 520px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.column1 {
+	height: 256px;
+}
+
+.column2 {
+	height: 253px;
+}
+
+.column3 {
+	height: 153px;
+}
+
+.column4 {
+	height: 148px;
+}
+
+.a_sponsors {
+	background: #2287d4;
+	padding-left:  16px;
+	padding-right: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+	.background_sponsors {
+		padding: 0 60px;
+		box-sizing: border-box;
+	}	
+}
+
+@media screen and (max-width: 900px) {
+
+	.background_sponsors {
+		padding: 0 60px;
+		box-sizing: border-box;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	.column2 , .column4 {
+		margin-top: 55px;
+
+	}
+
+	.by_container {
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.for_mobile_one , .for_mobile_two {
+		display: block;
+	}
+
+	.additional_container {
+		flex-direction: column;
+	}
+
+	.additional_container img:not(:last-of-type) {
+		margin-bottom: 50px;
+	}
+
+	.major_container {
+		flex-direction: column;
+	}
+
+	.major_container img:not(:last-of-type) {
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.a_sponsors{
+		padding: 20px 0;
+		background: #4c545d;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.by_container {
+		flex-direction: column;
+	}
+}
+
+
+
+
+
+
+
+

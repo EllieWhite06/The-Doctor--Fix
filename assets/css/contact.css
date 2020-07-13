@@ -1,0 +1,235 @@
+.wrapper {
+	max-width: 900px;
+	width: 100%;
+	margin: 52px auto 54px auto;
+}
+
+.wrapper h1 {
+	font-weight: bold;
+	text-align: center;
+}
+
+.wrapper p {
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 33px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+h1 + p {
+	margin-bottom: 43px;
+}
+
+.input-text p , .input-email p , .input-comment p {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	margin-bottom: 19px;
+	text-align: left;
+	margin-left: 20px;
+}
+
+ input {
+	font-size: 20px;
+	line-height: 23px;
+	color: #B9C9DA;
+	padding-left: 20px;
+	box-sizing: border-box;
+	background: #FBFBFB;
+	border: 1px solid #EDEDED;
+}
+
+.input-text input {
+	width: 430px;
+	height: 60px;
+}
+
+.input-name {
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.input-email {
+	margin-top: 30px;
+}
+
+.input-email input {
+	max-width: 900px;
+	width: 100%;
+	height: 60px;
+}
+
+.input-radio p {
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	text-align: left;
+	margin-top: 47px;
+}
+
+label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	font-size: 20px;
+	line-height: 21px;
+	color: #202B34;
+	margin-left: 36px;
+}
+
+input[type=radio] {
+	display: none;
+}
+
+label:before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	left: -36px;
+	background: #EDEDED;
+}
+
+.umfrage label:before {
+	border-radius: 10px;
+}
+
+input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #f3f3f3;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+    background-color: #2D47FE;
+}
+
+.input:not(:first-of-type) {
+	margin-top: 29px;
+}
+
+.umfrage {
+	margin-top: 26px;
+	margin-bottom: 61px;
+}
+
+.input-comment input{
+	max-width: 900px;
+	width: 100%;
+	height: 140px;
+	padding-bottom: 99px;
+	box-sizing: border-box;
+}
+
+.submit {
+	margin-top: 67px;
+}
+
+.submit button {
+	width: 196px;
+	height: 62px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.a_contact {
+	background: #2287d4;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+	.input-text input{
+		max-width: 430px;
+		width: 100%;
+	}
+
+	.wrapper {
+		padding-left: 60px;
+		padding-right: 60px;
+		box-sizing: border-box;
+	}
+
+	.input-name {
+		max-width: 430px;
+		width: 100%;
+		flex-direction: column;
+		height: 192px;
+	}
+
+	.input-email {
+		margin-top: 70px;
+	}
+
+	.input-email input {
+    	max-width: 430px;
+    	width: 100%;
+    }
+
+    label {
+    	font-size: 18px;
+    }
+
+    input {
+    	font-size: 18px;
+    }
+
+    .input-comment input {
+	    max-width: 430px;
+	    width: 100%;
+	    height: 400px;
+	    padding-bottom: 350px;
+	    font-size: 18px;
+	}
+
+	.wrapper p {
+		font-size: 20px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.a_contact {
+		padding: 20px 0;
+	    background: #4c545d
+	}
+}
+
+@media screen and (max-width: 394px) {
+	.one label:before {
+		bottom: 42px;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+	.wrapper {
+	    padding-left: 30px;
+	    padding-right: 30px;
+	    margin-top: 25px;
+	}
+
+	.input-text input , .input-email input {
+		height: 40px;
+	}
+
+	.wrapper p {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.input-email {
+		margin-top: 20px;
+	}
+
+	.input-radio {
+		margin-top: 20px;
+	}
+
+}

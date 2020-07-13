@@ -1,0 +1,159 @@
+.background2_content {
+	width: 100%;
+}
+
+.wrapper {
+	padding: 52px 45px 51px 45px;
+	box-sizing: border-box;
+}
+
+.wrapper h1 {
+	text-align: center;
+	padding-bottom: 49px;
+	box-sizing: border-box;
+}
+
+.intervieweers {
+	width: 1350px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.element {
+	max-width: 300px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.element:last-of-type {
+	margin-right: 0
+}
+
+.element a img {
+	padding-bottom: 10px;
+}
+
+.element a {
+	color: #0F79CE;
+}
+
+.for_mobile_one , .for_mobile_two {
+	max-width: 650px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.column1 , .column2 , .column3 , .column4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.column1 {
+	height: 823px;
+}
+
+.column2 {
+	height: 823px;
+}
+
+.column3 {
+	height: 516px;
+}
+
+.column4 {
+	height: 516px;
+}
+
+.a_interviewees{
+	background: #2287d4;
+	padding-left:  16px;
+	padding-right: 16px;
+}
+
+@media screen and (max-width: 1400px) {
+	.intervieweers {
+		flex-direction: column;	
+		margin: 0 auto;
+		width: 650px;
+	}
+
+
+	.for_mobile_two {
+		margin-top: 126px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.a_interviewees{
+		padding: 20px 0;
+		background: #4c545d;
+	}
+
+	.intervieweers {
+		width: 300px;
+	}
+
+	.for_mobile_one, .for_mobile_two {
+		flex-direction: column;
+		margin: 0 auto;
+		width: 300px;
+	}
+
+	.column1 {
+		height: 743px;
+	}
+
+	.column2 {
+		height: 743px;
+		margin-top: 40px;
+	}
+
+	.column3 {
+		height: 476px;
+		margin-top: 40px;
+	}
+
+	.column4 {
+		height: 476px;
+		margin-top: 40px;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+	.element a img {
+		width: 200px;
+	}
+
+	.column1 {
+		height: 530px;
+	}
+
+	.column2 {
+		height: 530px;
+		margin-top: 40px;
+	}
+
+	.column3 {
+		height: 360px;
+		margin-top: 40px;
+	}
+
+	.column4 {
+		height: 360px;
+		margin-top: 40px;
+	}
+
+	.for_mobile_one, .for_mobile_two {
+		width: 200px;
+	}
+	
+	.intervieweers {
+    	width: 200px;
+    }
+
+}
